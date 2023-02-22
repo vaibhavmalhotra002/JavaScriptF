@@ -17,3 +17,6 @@ function save(){
     console.log(count)
 }
 save()
+
+let message ="You have three new notifications"
+console.log(message)
