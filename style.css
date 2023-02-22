@@ -1,0 +1,16 @@
+button {
+    border: 0cap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:aliceblue;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+#increment-btn {
+    background-color: brown;
+}
+#save-btn{
+    background-color: green;
+}
