@@ -14,3 +14,9 @@ button {
 #save-btn{
     background-color: green;
 }
+h2 {
+    font-size: large;
+}
+#count-el{
+    font-size: 50px;
+}
