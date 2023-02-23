@@ -18,10 +18,10 @@ function save(){
 }
 save()
 
-let message ="You have three new notifications"
-console.log(message)
+// let message ="You have three new notifications"
+// console.log(message)
 
-let name = 'Vaibhav'
-let gretting = 'Hi my name is  ' 
-let myGreeting = gretting + ' ' + name
-console.log(myGreeting)
+// let name = 'Vaibhav'
+// let gretting = 'Hi my name is' 
+// let myGreeting = gretting + ' ' + name
+// console.log(myGreeting)
