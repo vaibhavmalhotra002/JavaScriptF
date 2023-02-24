@@ -5,4 +5,4 @@ let greeting = "Welcome Back "
 
 welcomeEl.innerText= greeting + name
 
-welcomeEl.innerText = welcomeEl.innerText + "🥳"
+welcomeEl.innerText += "🥳" 
