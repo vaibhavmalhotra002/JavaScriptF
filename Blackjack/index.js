@@ -2,19 +2,40 @@
 // Set their values to a random number between 2-11
 
 // 2. Create a variable, sum, and set it to the sum of the two cards
-let firstCard = 5
+let firstCard = 1
 
-let secondCard = 16
+let secondCard = 20
 
 let sum = firstCard + secondCard
 
-if (sum <21){
-    console.log("Do you want to draw another card: 🫡")
+let hasblackjack = false
+let isAlive =true
+
+let message =""
+
+if (sum <=20){
+    message="Do you want to draw another card: 🫡"
+    
 } else if (sum === 21){
-    console.log("Wooho You've got BlackJack!!🥳")
+    message="Wooho You've got BlackJack!!🥳"
+    hasblackjack=true
 } else {
-    console.log("You're out of the game😟")
+    message="You're out of the game😟"
+    isAlive =false
 }
+console.log(message)
+console.log(hasblackjack)
+console.log(isAlive)
+
+
+
+
+
+
+
+
+
+//Practice sets
 
 // let age = 21
 
@@ -24,13 +45,13 @@ if (sum <21){
 //         console.log("You're allowed to enter the NightClub")
 //     }
 
-let age =100
- if(age<100){
-    console.log("You are not eligible")
- }
- else if(age ===100){
-    console.log("Here is your birthday card from the king!")
- }
- else{
-    console.log("Not Eligible you have already gotten one")
- }
+// let age =100
+//  if(age<100){
+//     console.log("You are not eligible")
+//  }
+//  else if(age ===100){
+//     console.log("Here is your birthday card from the king!")
+//  }
+//  else{
+//     console.log("Not Eligible you have already gotten one")
+//  }
