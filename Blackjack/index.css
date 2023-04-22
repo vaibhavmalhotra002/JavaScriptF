@@ -2,6 +2,7 @@ body{
  background-image: url("images/1155052.webp");
  font-family : 'Trebuchet MS';
  text-align: center;
+ background-size: cover;
 }
 h1{
     color: goldenrod;
