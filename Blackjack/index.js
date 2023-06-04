@@ -4,7 +4,7 @@
 // 2. Create a variable, sum, and set it to the sum of the two cards
 let firstCard = 1
 
-let secondCard = 20
+let secondCard = 67
 
 let sum = firstCard + secondCard
 
@@ -12,9 +12,14 @@ let hasblackjack = false
 let isAlive =true
 
 let message =""
+let messageEl = document.getElementById("message-el")
+//let sumEl = document.getElementById("sum-el")
+let sumEl = document.querySelector("#sum-el")
+
+console.log(messageEl)
 
 function StartGame() {
-
+sumEl.textContent ="Sum: " + sum;
 if (sum <=20){
     message="Do you want to draw another card: 🫡"
     
@@ -25,7 +30,7 @@ if (sum <=20){
     message="You're out of the game😟"
     isAlive =false
 }
-console.log(message)
+messageEl.textContent=message;
 }
 
 
