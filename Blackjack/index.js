@@ -13,6 +13,8 @@ let isAlive =true
 
 let message =""
 
+function StartGame() {
+
 if (sum <=20){
     message="Do you want to draw another card: 🫡"
     
@@ -24,8 +26,7 @@ if (sum <=20){
     isAlive =false
 }
 console.log(message)
-console.log(hasblackjack)
-console.log(isAlive)
+}
 
 
 
