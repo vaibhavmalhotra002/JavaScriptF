@@ -15,11 +15,14 @@ let message =""
 let messageEl = document.getElementById("message-el")
 //let sumEl = document.getElementById("sum-el")
 let sumEl = document.querySelector("#sum-el")
+let cardsEl = document.getElementById('cards-el')
 
 console.log(messageEl)
 
 function StartGame() {
+    cardsEl.textContent ="Cards: " + firstCard + " " + secondCard;
 sumEl.textContent ="Sum: " + sum;
+
 if (sum <=20){
     message="Do you want to draw another card: 🫡"
     
