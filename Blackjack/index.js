@@ -35,7 +35,9 @@ if (sum <=20){
 }
 messageEl.textContent=message;
 }
-
+ function newCard() {
+    console.log("Do you want to darw a new card")
+ }
 
 
 
