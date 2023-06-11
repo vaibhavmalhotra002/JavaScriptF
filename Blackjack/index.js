@@ -4,7 +4,8 @@
 // 2. Create a variable, sum, and set it to the sum of the two cards
 let firstCard = 1
 
-let secondCard = 67
+let secondCard = 20
+let cards = [ firstCard , secondCard]
 
 let sum = firstCard + secondCard
 
@@ -18,17 +19,18 @@ let sumEl = document.querySelector("#sum-el")
 let cardsEl = document.getElementById('cards-el')
 
 console.log(messageEl)
-function StartGame(){
+function StartGame()
+{
     renderGame() 
 }
 
 function renderGame() {
-    cardsEl.textContent ="Cards: " + firstCard + " " + secondCard;
-sumEl.textContent ="Sum: " + sum;
+    cardsEl.textContent ="Cards: " + cards[0] + "  " + cards[1];
+sumEl.textContent ="Sum:" + sum;
 
 if (sum <=20){
     message="Do you want to draw another card: 🫡"
-    
+     
 } else if (sum === 21){
     message="Wooho You've got BlackJack!!🥳"
     hasblackjack=true
