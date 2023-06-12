@@ -5,7 +5,7 @@
 let firstCard = 1
 
 let secondCard = 20
-let cards = [ firstCard , secondCard]
+let cards = [firstCard , secondCard]
 
 let sum = firstCard + secondCard
 
@@ -29,28 +29,25 @@ function renderGame() {
 sumEl.textContent ="Sum:" + sum;
 
 if (sum <=20){
-    message="Do you want to draw another card: 🫡"
+    message="Do you want to draw another card: 🫡" 
      
 } else if (sum === 21){
     message="Wooho You've got BlackJack!!🥳"
     hasblackjack=true
 } else {
-    message="You're out of the game😟"
+    message="You're out of the game "
     isAlive =false
 }
 messageEl.textContent=message;
 }
  function newCard() {
-    console.log("Do you want to darw a new card")
+    
     let card = 7
     sum += card
+    cards.push(card)
+    console.log(cards)
     renderGame()
  }
-
-
-
-
-
 
 
 
